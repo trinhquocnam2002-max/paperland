@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Paper Land | Redirecting...</title>
+    <script type="text/javascript">
+      // GitHub Pages SPA redirect
+      var l = window.location;
+      var path = l.pathname;
+      if (!path.endsWith('/')) {
+        l.replace(l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + path + '/' + l.search + l.hash);
+      } else {
+        l.replace(l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + path + 'index.html' + l.search + l.hash);
+      }
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "Paper Land - Aesthetic Stationery Australia",
+  "description": "Aesthetic notebooks, planners, bullet journals & art sketchbooks for Australia with local shipping and seamless payment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
